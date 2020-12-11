@@ -1,0 +1,39 @@
+.done {
+    text-decoration: line-through;
+    opacity: 0.5;
+  }
+  mat-card {
+    width: 90%;
+    max-width: 400px;
+    margin: 20px auto 0 auto;
+  }
+  mat-slide-toggle {
+    width: 100%;
+  }
+  .mat-list-item-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  mat-divider {
+    top: 0;
+    bottom: auto;
+  }
+  mat-icon {
+    color: grey;
+  }
+  .mat-form-field-wrapper {
+    padding-bottom: 0;
+    margin-top: 15px;
+  }
+
+  .mt-15 {
+    margin-top: 15px;
+  }
+
+  .w-20 {
+    width: 20%;
+  }
+
+  .material-icons.color_primary { color: #3f51b5; }
+  .material-icons.color_danger { color: #da4141; }
